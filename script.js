@@ -54,11 +54,11 @@ function generatePassword(
 
 // Write password to the #password input
 function writePassword() {
-   let passwordLength = window.prompt("Enter Length");
-    // while (passwordLength <=8 || paswordLength <=128) {
-    //   window.alert("Password must be between 8-128 characters");
-    //   let passwordLength = window.prompt("Enter Length"));
-      
+   let passwordLength = prompt("Enter Length");
+    // confirm(passwordLength <=8 || paswordLength <=128) {
+    //   alert("Password must be between 8-128 characters");
+    //   let passwordLength = prompt("Enter Length"));
+    // }
    let includeSpecial = true;
    let includeLowercase = true;
    let includeUppercase = false;
